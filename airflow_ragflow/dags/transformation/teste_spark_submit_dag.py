@@ -29,9 +29,9 @@ def teste_spark_submit_dag() -> None:
         conn_id="spark_default",
         conf={
             # memória e cores mínimos
-            "spark.driver.memory":       "512m",
-            "spark.executor.memory":     "512m",
-            "spark.executor.cores":      "1",
+            "spark.driver.memory": "512m",
+            "spark.executor.memory": "512m",
+            "spark.executor.cores": "1",
         },
     )
 
